@@ -1,0 +1,45 @@
+
+
+#define MANAGER_HOST "theia2.seekloud.org"
+#define MANAGER_PORT 50080
+
+#cmakedefine WS_PTCL "@WS_PTCL@"
+
+#cmakedefine KANKAN_VERSION "@KANKAN_VERSION@"
+
+//spindle
+#cmakedefine SPINDLE_HOST "@SPINDLE_HOST@"
+#cmakedefine SPINDLE_PORT @SPINDLE_PORT@
+
+//seria
+#cmakedefine SERIA_HOST "@SERIA_HOST@"
+#cmakedefine SERIA_PORT @SERIA_PORT@
+
+//coturn
+#cmakedefine REMOTE_IP "@REMOTE_IP@"
+#cmakedefine REMOTE_PORT @REMOTE_PORT@
+#cmakedefine COTURN_USERNAME "@COTURN_USERNAME@"
+#cmakedefine COTURN_PASSWORD "@COTURN_PASSWORD@"
+
+#define HOME_URL "http://theia2.seekloud.org:50080/zues#/RoomList"
+
+#cmakedefine SPDLOG_ACTIVE_LEVEL @SPDLOG_ACTIVE_LEVEL@
+#cmakedefine LOG_FILE_NAME "@LOG_FILE_NAME@"
+
+//console controller
+#cmakedefine NOT_USE_CONSOLE @NOT_USE_CONSOLE@
+
+//ice
+#cmakedefine TA @TA@ //发送间隔，单位毫秒
+#cmakedefine MAX_RETRANS_COUNT @MAX_RETRANS_COUNT@  //最大重传次数
+
+
+//模块集成
+#cmakedefine USE_AUDIO_CAPTURE_RENDER @USE_AUDIO_CAPTURE_RENDER@
+#cmakedefine USE_NETIO_IMP6 @USE_NETIO_IMP6@
+#cmakedefine USE_VIDEO_ENGINE_IMP7 @USE_VIDEO_ENGINE_IMP7@
+#cmakedefine USE_VIDEO_ENGINE_IMP4 @USE_VIDEO_ENGINE_IMP4@
+#cmakedefine USE_VIDEO_CAPTURE_IMP6 @USE_VIDEO_CAPTURE_IMP6@
+#cmakedefine USE_AUDIO_ENGINE_IMPL5 @USE_AUDIO_ENGINE_IMPL5@
+#cmakedefine USE_AUDIOENGINE_IMP2 @USE_AUDIOENGINE_IMP2@
+#cmakedefine USE_MEETING_IMP4 @USE_MEETING_IMP4@
